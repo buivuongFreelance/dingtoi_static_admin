@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "langs",
+  "info": {
+    "singularName": "lang",
+    "pluralName": "langs",
+    "displayName": "Language",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "value_en": {
+      "type": "text"
+    },
+    "value_vi": {
+      "type": "text"
+    },
+    "value_fr": {
+      "type": "text"
+    }
+  }
+}
